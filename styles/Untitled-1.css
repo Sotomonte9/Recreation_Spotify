@@ -1,0 +1,345 @@
+:root{
+    --text: #1A1A1A;
+    --primary: #00B172;
+    --secondary: #FFF;
+}
+
+/* Mobile */
+@media (min-width:320px){
+
+    header{
+        top: 0;
+        background-color: #FFF;
+        display: block;
+    }
+    
+    body{
+        margin: 0;
+    }
+    
+    #logo-spotify{
+        width: 250px;
+        margin-left: 25%;
+        margin-bottom: 5px;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    
+    .links{
+        margin-right: 20px;
+    }
+    
+    .encabezado_centro {
+        position: absolute;
+        top: 130px;
+        color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 150%;
+        font-size:medium;
+    }
+    
+        /*Parte 2*/
+    
+    .image{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .cuerpo{
+        background-color:whitesmoke;
+    }
+    
+        /*Parte 3*/
+    
+    .bottom{
+        height:auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        background-color: #05b577;
+        color: #FFF;
+        align-items: center;
+    }
+    
+    .spoti_blanco{
+        width: 150px;
+        height: 150px;
+    }
+    
+    .box_bottom{
+        width: 30%;
+        height: 500px;
+        margin-left: 20px;
+    }
+    
+    .kany{
+        width: 300px;
+        height: 500px;
+    }
+    
+    /* Estos són estilos especificos */
+    
+    .centro{
+        text-align: center;
+    }
+    
+    .fondo{
+        height: auto;
+        width: 100%;
+    }
+    
+    .verdesito{
+        color:turquoise;
+    }
+    
+    .ralladito_body{
+        text-decoration: underline;
+        text-decoration-color: turquoise;
+    }
+    
+    .ralladito_bottom{
+        text-decoration: underline;
+        text-decoration-color: turquoise;
+    }
+}
+/* Tablet */
+@media (min-width:768px){
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        padding: 5px;
+        background-color: #FFF;
+    }
+    
+    body{
+        margin: 0;
+    }
+    
+    #logo-spotify{
+        width: 250px;
+    }
+    
+    nav{
+        display: inline-block;
+    } 
+    
+    .links{
+        margin-right: 20px;
+    }
+    
+    .encabezado_centro {
+        position: absolute;
+        top: 0;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 150%;
+        font-size:xx-large;
+    }
+    
+        /*Parte 2*/
+    .columnitas{
+    
+        column-count: 3;
+        column-gap: 200px;
+    }
+    
+    .image{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .cuerpo{
+        background-color:whitesmoke;
+    }
+    
+        /*Parte 3*/
+    
+    .bottom{
+        height: 700px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        background-color: #05b577;
+        color: #FFF;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    .spoti_blanco{
+        width: 150px;
+        height: 150px;
+        margin-left: -120px;
+    }
+    
+    .box_bottom{
+        width: 30%;
+        height: 500px;
+        margin-left: 20px;
+    }
+    
+    .kany{
+        width: 300px;
+        height: 500px;
+    }
+    
+    /* Estos són estilos especificos */
+    
+    .centro{
+        text-align: center;
+    }
+    
+    .fondo{
+        height: auto;
+        width: 100%;
+    }
+    
+    .verdesito{
+        color:turquoise;
+    }
+    
+    .ralladito_body{
+        text-decoration: underline;
+        text-decoration-color: turquoise;
+    }
+    
+    .ralladito_bottom{
+        text-decoration: underline;
+        text-decoration-color: turquoise;
+    } 
+}
+/* Desktop */
+@media (min-width:1020px){
+
+    /*Parte 1*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #FFF;
+}
+
+body{
+    margin: 0;
+}
+
+#logo-spotify{
+    width: 250px;
+}
+
+nav{
+    display: inline-block;
+} 
+
+.links{
+    margin-right: 20px;
+}
+
+.encabezado_centro {
+    position: absolute;
+    top: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 150%;
+    font-size:xx-large;
+}
+
+    /*Parte 2*/
+.columnitas{
+
+    column-count: 3;
+    column-gap: 200px;
+}
+
+.image{
+    width: 50px;
+    height: 50px;
+}
+
+.cuerpo{
+    background-color:whitesmoke;
+}
+
+    /*Parte 3*/
+
+.bottom{
+    height: 700px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: #05b577;
+    color: #FFF;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+}
+
+.spoti_blanco{
+    width: 150px;
+    height: 150px;
+    margin-left: -120px;
+}
+
+.box_bottom{
+    width: 30%;
+    height: 500px;
+    margin-left: 20px;
+}
+
+.kany{
+    width: 300px;
+    height: 500px;
+}
+
+/* Estos són estilos especificos */
+
+.centro{
+    text-align: center;
+}
+
+.fondo{
+    height: auto;
+    width: 100%;
+}
+
+.verdesito{
+    color:turquoise;
+}
+
+.ralladito_body{
+    text-decoration: underline;
+    text-decoration-color: turquoise;
+}
+
+.ralladito_bottom{
+    text-decoration: underline;
+    text-decoration-color: turquoise;
+}
+}
